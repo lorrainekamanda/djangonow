@@ -1,0 +1,44 @@
+{% extends 'searches/base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'searches/css/home.css'%}">
+<div class="container all">
+    <div class="row">
+        {% for image in images %}
+        <div class="col-md-3">
+          <article class="media content-section" style="margin-left: 15px;width: 210px; width: 230px;">
+            <div class="media-body" style="margin-left: 5px;">
+              <div class="article-metadata" >
+                
+             
+                <img src="{{image.image.url}}" class="img-responsive imgs" id='imag' style="height: 180px; width:180px" alt="Name:{{image.name}} <br> <br> Location:{{image.location}} <br> <br> Description:{{image.description}}">
+   
+                
+               <div>
+                
+            </div>
+          </div>
+        </article>
+            <!-- modal -->
+            <div class="modal" id="myModal">
+                <!-- close button -->
+                <span class="close">&times;</span>
+                <div class="meta">
+                    <div class="fix">
+                       
+                        <img class="modal-content" id="img1">
+                        
+                    </div>
+                    <div class="overlay">
+                       
+                        <div id="caption"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        {% endfor %}
+    </div>
+</div>
+<script src="{% static 'searches/js/home22.js'%}"></script>
+{% endblock %}

@@ -1,0 +1,113 @@
+#classA{
+    background-image: url(../images/beach.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: animate 15s ease-in-out infinite;
+    background-position: center center;
+    height: 500px;
+    margin-top: -20px;
+    text-align: center,center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+}
+.overlay{
+    background-color: rgba(23, 25, 34, 0.589);
+    height: 100%;
+}
+.para{
+    background-attachment: fixed;
+    animation: animate 15s ease-in-out infinite;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+
+
+
+  #imag {
+    width: 400px;
+    max-height: 200px;
+    border-radius: 5%;
+  }
+  #imag:hover {
+    opacity: 0.5;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding: 100px 0px 0px 0px;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: auto;
+    
+  }
+  .modal-content {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-left:100px;
+  }
+  #caption {
+    margin: auto;
+    display: auto;
+    width: 80%;
+    color: #ffffff;
+  }
+  .modal-content,
+  #caption {
+    animation-name: zoom;
+    animation-duration: 0.5s;
+  }
+  @keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+  }
+  .close {
+    position: absolute;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 80px;
+    top: 50px;
+    right: 20px;
+  }
+  .close:hover,
+  .close:focus {
+    color:red;
+    text-decoration: none;
+  }
+  .meta {
+    margin:auto;
+  }
+  .fix {
+    position: absolute;
+  }
+  .overlay {
+    position: relative;
+    top: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+    width:25%;
+    margin-left:10%;
+    margin-left: 200px;
+  }
+  .nv{
+    background-image:radial-gradient(circle,rgb(69, 69, 139),#000);
+  }
+  
+  
+  
+  
+  
+  
+  

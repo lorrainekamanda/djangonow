@@ -1,0 +1,64 @@
+#classA{
+    background-image: url(../images/moroco.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: animate 15s ease-in-out infinite;
+    background-position: center center;
+    height: 500px;
+    margin-top: -20px;
+    text-align: center,center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    backdrop-filter: blur(8px);
+    justify-content: center;
+    align-items: center;
+    align-content: center center;
+   
+}
+.blur{
+    backdrop-filter: blur(5px);
+    background-color: rgba(35, 35, 51, 0.589); 
+}
+.overlay{
+    
+    backdrop-filter: blur(8px);
+    height: 100%;
+    margin-left: -30px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-content: center;
+}
+.overlay2{
+    background-image: url(../images/moroco.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    max-width: 100%;
+    height: 400px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+
+}
+.para{
+    background-attachment: fixed;
+    animation: animate 15s ease-in-out infinite;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#classaa{
+   background-image: url(../images/tropic.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
